@@ -1,6 +1,6 @@
 # Lesson 1 Exercises: Getting Started with STATA
 
-**Level:** Beginner  |  **Time:** about 45 minutes  |  **Dataset:** `auto` (built into Stata, no download needed)
+**Level:** Beginner  |  **Time:** about 45 minutes  |  **Dataset:** `auto.dta` (built into Stata, no download needed)
 
 ## Learning objectives
 By the end of this lesson you will be able to:
