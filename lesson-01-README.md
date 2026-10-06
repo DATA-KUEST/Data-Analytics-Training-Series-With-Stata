@@ -5,6 +5,8 @@
 ## Learning objectives
 By the end of this lesson you will be able to:
 - Find your way around the Stata interface
+- Go through the different Menus of STATA[You can watch the video here](https://youtu.be/mkzpgDAXrw0)
+- The STATA's Toolbar
 - Load a dataset and inspect its structure
 - Use `describe`, `list`, `summarize`, `count` and `tabulate`
 - Save your work in a do-file and record output in a log file
