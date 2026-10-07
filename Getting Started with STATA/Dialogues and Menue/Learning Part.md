@@ -1,4 +1,4 @@
-## 8. Menus and dialogs
+## Menus and dialogs
 
 You can tell Stata what to do with the **Command window** or with **menus and dialogs**. Each has strengths: dialogs help you discover options, commands are faster and can be saved.
 
