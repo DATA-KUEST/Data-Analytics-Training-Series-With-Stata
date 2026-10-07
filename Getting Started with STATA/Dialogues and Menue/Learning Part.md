@@ -1,3 +1,38 @@
+## 8. Menus and dialogs
+
+You can tell Stata what to do with the **Command window** or with **menus and dialogs**. Each has strengths: dialogs help you discover options, commands are faster and can be saved.
+
+**Where to find things**
+- The **Data**, **Graphics** and **Statistics** menus give point-and-click access to almost every command.
+- The **User** menu starts nearly empty; programmers can add their own items.
+- *Example:* a Poisson regression is under **Statistics > Count outcomes > Poisson regression**, or you can just type `poisson`.
+
+**Inside a dialog**
+- Variable boxes show only variables of a suitable type (for example, numeric only).
+- Tabs hold the options. Many dialogs have **by/if/in** (choose which observations to use) and **Weights** tabs. Estimation dialogs usually add a **Maximization** tab for optimiser settings.
+- Look through every tab the first time you use a dialog to see what it can do.
+
+**The six standard buttons**
+
+| Button | Action |
+|---|---|
+| **OK** | Runs the command and closes the dialog |
+| **Cancel** | Closes without doing anything |
+| **Submit** | Runs the command and **keeps the dialog open**, handy for tweaking a graph |
+| **Help** (?) | Opens the help file for the command |
+| **Reset** | Returns the dialog to its default state (dialogs remember your last entries) |
+| **Copy command to Clipboard** | Copies the command instead of running it, so you can paste it into a do-file |
+
+**Learn from your clicks.** A dialog just builds an ordinary command and submits it. You can see that command in the Results and History windows, so reading it teaches you Stata's syntax.
+
+**Open any dialog by command:** type `db` followed by a command name, for example:
+
+```stata
+db summarize
+```
+
+---
+
 # 2. The toolbar
 
 The toolbar gives one-click access to the most-used features. Hover your mouse over a button for a moment to see a tooltip. Buttons with a small arrow open a menu when you click the arrow.
