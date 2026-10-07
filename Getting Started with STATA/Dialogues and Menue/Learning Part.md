@@ -5,7 +5,7 @@ You can tell Stata what to do with the **Command window** or with **menus and di
 **Where to find things**
 - The **Data**, **Graphics** and **Statistics** menus give point-and-click access to almost every command.
 - The **User** menu starts nearly empty; programmers can add their own items.
-- *Example:* a Poisson regression is under **Statistics > Count outcomes > Poisson regression**, or you can just type `poisson`.
+- *Example:* a Logistic regression is under **Statistics > Binary outcomes > Logistic regression**, or you can just type `logistic`.
 
 **Inside a dialog**
 - Variable boxes show only variables of a suitable type (for example, numeric only).
