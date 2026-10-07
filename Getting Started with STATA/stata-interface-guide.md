@@ -45,9 +45,9 @@ The toolbar gives one-click access to the most-used features. Hover your mouse o
 
 | Button | What it does |
 |---|---|
-| **Open** | Opens a Stata dataset |
+| **Open** ✉️ | Opens a Stata dataset |
 | **Save** | Saves the dataset in memory to disk |
-| **Print** | Shows a list of windows; pick one to print |
+| **Print** 🖨️ | Shows a list of windows; pick one to print |
 | **Log** | Starts a log, or closes, pauses or resumes the current one |
 | **Viewer** | Opens or brings forward a Viewer (help and log output) |
 | **Graph** | Brings a Graph window to the front |
