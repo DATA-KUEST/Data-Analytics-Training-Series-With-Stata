@@ -53,22 +53,10 @@ Stata comes with more help than most people realise, and much of it works offlin
 ---
 
 ## 2. Which tool do I use? A decision guide
+<img width="364" height="486" alt="Decision making guide" src="https://github.com/user-attachments/assets/ae25bf21-bcf2-4ccb-9e75-fb1da944ab16" />
 
-```mermaid
-flowchart TD
-    A[I need help with Stata] --> B{What do I know?}
-    B -->|The command name| C["help commandname"]
-    B -->|The task, not the command| D["search keywords"]
-    B -->|A variable I cannot remember| E["lookfor keyword"]
-    B -->|I got an error message| F["Read the message and return code, then help commandname"]
-    D --> G{Found a promising command?}
-    G -->|Yes| C
-    G -->|No| H["Try different keywords, or search with net resources, or findit"]
-    C --> I["Read syntax, then run the examples"]
-    I --> J{Need more depth?}
-    J -->|Yes| K["Open the PDF manual entry"]
-    J -->|No| L[Try it on your data]
-```
+
+
 
 | If you think... | Use |
 |---|---|
