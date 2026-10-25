@@ -1,0 +1,12 @@
+001Ajegunle PHC                  Lagos    12 18
+002St. Mary's, Ikeja             Lagos    30 41
+003Sabon Gari PHC                Kano      8 11
+004Rafin Zurfi "Model" Clinic    Kaduna   10 14
+005Bodija Health Centre          Oyo      15 22
+006Trans-Amadi PHC               Rivers   20 27
+007Abakaliki Central, Ward 3     Ebonyi    9 12
+008Mushin Maternal Home          Lagos    25 33
+009Dala PHC                      Kano     11 15
+010Iyaganku Clinic               Oyo      14 19
+011Port Harcourt Road PHC        Rivers   18 24
+012Zaria Road Health Post        Kaduna    6  8
