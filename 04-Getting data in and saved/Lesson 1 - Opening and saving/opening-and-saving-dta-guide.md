@@ -4,8 +4,6 @@
 
 Every analysis starts by **opening** a dataset and ends by **saving** one. Done carelessly, these two steps cause the most expensive mistakes in data work: the wrong file analysed, a raw file overwritten, a day of cleaning lost because it was never saved. Done well, they make your work safe and repeatable. This guide explains how Stata handles `.dta` files, in menus and in commands.
 
-> Adapted in part from the *Getting Started with Stata for Windows* manual (StataCorp LLC), chapter 5 ("Opening and saving Stata datasets"), with Data Editor details from chapter 6, and checked against the `[D] use`, `[D] save` and `[D] sysuse` entries on stata.com. The explanations, examples and exercises are our own. Stata is a registered trademark of StataCorp LLC.
-
 ## Learning objectives
 By the end of this guide you will be able to:
 - Explain the difference between the dataset **in memory** and the file **on disk**
