@@ -9,6 +9,7 @@ inspect weight_kg
 list in 1/10
 list in -5/-1
 browse
+count
 ```
 
 | Command | Gives you |
@@ -17,9 +18,11 @@ browse
 | `codebook, compact` | One line per variable: number of unique values, missing, min, max, mean |
 | `codebook var` | Full detail: type, range, units, unique values, missing, tabulation of codes |
 | `inspect var` | A small text histogram plus counts of negative, zero, positive and missing values, and integers |
+| `list` | Prints selected observations in the Results window |
 | `list in 1/10` | The first rows, to see what the data really look like |
 | `list in -5/-1 | The last five rows to see what the data looks like |
-| `Browse` | Opens the Data Browser to view rows and columns
+| `browse` | Opens the Data Browser to view rows and columns |
+| `count` | Counts observations meeting a condition |
 
 What to look for:
 - Variables that should be numeric but are strings (`str` in `describe`), such as `visit_date` and `state` in the ANC data
