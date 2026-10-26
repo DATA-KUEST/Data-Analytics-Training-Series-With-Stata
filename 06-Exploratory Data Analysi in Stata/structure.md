@@ -8,6 +8,7 @@ codebook height_cm sex
 inspect weight_kg
 list in 1/10
 list in -5/-1
+browse
 ```
 
 | Command | Gives you |
@@ -18,6 +19,7 @@ list in -5/-1
 | `inspect var` | A small text histogram plus counts of negative, zero, positive and missing values, and integers |
 | `list in 1/10` | The first rows, to see what the data really look like |
 | `list in -5/-1 | The last five rows to see what the data looks like |
+| `Browse` | Opens the Data Browser to view rows and columns
 
 What to look for:
 - Variables that should be numeric but are strings (`str` in `describe`), such as `visit_date` and `state` in the ANC data
