@@ -17,6 +17,7 @@ list in -5/-1
 | `codebook var` | Full detail: type, range, units, unique values, missing, tabulation of codes |
 | `inspect var` | A small text histogram plus counts of negative, zero, positive and missing values, and integers |
 | `list in 1/10` | The first rows, to see what the data really look like |
+| `list in -5/-1 | The last five rows to see what the data looks like |
 
 What to look for:
 - Variables that should be numeric but are strings (`str` in `describe`), such as `visit_date` and `state` in the ANC data
